@@ -1,0 +1,16 @@
+CREATE TABLE Work_Experience (
+Company varchar (100),
+Position varchar (100),
+Start_date date,
+Quit_date date,
+Note varchar (100)
+);
+
+INSERT INTO Work_Experience (Company, Position, Start_date, Quit_date, Note)
+VALUES
+("AKS", "English tutor", "2017-02-01", "2017-08-01", "My English is good!"),
+("Danske Bank", "Operations Officer", "2017-09-01", "2020-07-01",  "Business banking operations."),
+("Kaunas IN", "Analyst", "2020-11-03", NULL, "First analyst position.")
+;
+
+Select * from Work_Experience;
